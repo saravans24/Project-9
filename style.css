@@ -1,0 +1,467 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #4617fe;
+  height: 70vh;
+}
+
+.header1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  margin-right: 2%;
+  align-items: center;
+  padding-top: 25px;
+}
+
+nav a {
+  padding: 10px;
+  color: #e8e2ff;
+}
+
+.nav-item-active {
+  color: #5a31fc;
+  background-color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+header div:nth-child(2) {
+  margin-left: 5%;
+  position: relative;
+  top: 10%;
+}
+
+header div:nth-child(3) {
+  margin-left: 5%;
+  font-size: 25px;
+  align-self: baseline;
+  margin-top: 5%;
+}
+
+.header-image {
+  position: absolute;
+  top: 16%;
+  right: 0px;
+}
+
+.header-text {
+  color: white;
+}
+
+.header-text h2 {
+  margin: 0;
+  font-size: 40px;
+}
+
+.header-text p {
+  font-size: 16px;
+}
+
+.companies {
+  display: flex;
+  gap: 10px;
+  margin-left: 3%;
+}
+
+.companies a {
+  padding: 30px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.api {
+  display: flex;
+  flex-direction: column;
+  margin: 3% 5%;
+}
+
+.cards {
+  display: flex;
+  gap: 15px;
+}
+
+/* .cards::after {
+  content: ">";
+  border: 1px solid;
+} */
+
+.card,
+.card-active {
+  padding: 30px 20px;
+}
+
+.card-active h3 {
+  color: #5a31fc;
+}
+
+.card-active {
+  box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+}
+
+.arrow {
+  align-self: center;
+}
+
+.arrowi {
+  border: 1px solid;
+  padding: 0px 15px;
+  font-size: 30px;
+  border-radius: 50px;
+  background-color: #5a31fc;
+  color: white;
+}
+
+.blog-heading {
+  margin: 0 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-heading::after {
+  content: "See All Article";
+  display: flex;
+  align-self: center;
+  color: #4617fe;
+  font-weight: bold;
+}
+
+.blog-cards {
+  display: flex;
+  margin: 0 5%;
+  gap: 30px;
+  justify-content: center;
+}
+
+.blog-card {
+  display: flex;
+  position: relative;
+  width: 50%;
+}
+
+.blog-image img {
+  height: 100%;
+  width: 120%;
+}
+
+.blog-content {
+  padding: 10px 30px 10px 60px;
+  box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+  width: 35%;
+  margin-left: 8%;
+}
+
+.blog-content h6 {
+  color: #4617fe;
+}
+
+.blog-bottom {
+  position: absolute;
+  bottom: -35px;
+  left: 62%;
+}
+
+.blog-author {
+  position: absolute;
+  bottom: 10px;
+  right: 75px;
+  font-size: 15px;
+}
+
+.faq-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e9edff;
+  margin: 5% 0;
+}
+
+.faq-content {
+  padding: 3% 5%;
+}
+
+.faq-content h2 {
+  font-size: 50px;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.faq-content h4:nth-child(2) {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.faq-content button {
+  background-color: #5a31fc;
+  padding: 10px 25px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.faq-image {
+  display: flex;
+}
+
+.download-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5%;
+  align-items: center;
+}
+
+.download-content h1 span {
+  font-weight: 100;
+}
+
+.download-email {
+  display: flex;
+  width: 40%;
+  padding: 12px;
+  position: relative;
+  /* border: 1px solid; */
+}
+
+.download-email form input {
+  display: flex;
+  width: 190%;
+  padding: 15px 4px 15px 30px;
+  border-radius: 30px;
+  background-color: #e9edff;
+  border: none;
+}
+
+.download-email form button {
+  position: absolute;
+  top: 22%;
+  right: -2%;
+  padding: 11px 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: #5a31fc;
+  color: white;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 6% 5% 5% 5%;
+  background-color: blue;
+  margin-top: 5%;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  color: #e8e2ff;
+  margin-top: 20px;
+}
+
+ul.logos-list {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  color: #e8e2ff;
+  margin-top: 25px;
+}
+
+.footer-righti {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+
+li.list-items {
+  padding: 0 15px;
+  border-right: 1px solid;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  /* color: gray; */
+}
+
+.list li:first-child {
+  border: none;
+  padding: 0;
+}
+
+li.list-items:last-child {
+  border: none;
+}
+
+.logos-list li {
+  padding: 0 15px;
+}
+
+.logos-list li:last-child {
+  padding: 0;
+  padding-left: 15px;
+}
+
+
+@media (max-width:500px){
+
+  nav{
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+  }
+
+  header {
+    height: unset;
+    padding-bottom: 10px;
+  }
+
+  .header1 {
+    flex-direction: column-reverse;
+  }
+
+  .logoo{
+    align-self: center;
+  }
+
+  .header-image {
+    display: flex;
+    width: 275px;
+    position: absolute;
+    left: 0;
+    top: 110px;
+  }
+
+  .header-text h2 {
+    margin: 0;
+    font-size: 30px;
+  }
+
+  .companies{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-heading {
+    display: flex;
+  }
+
+  .blog-cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog-card {
+    display: flex;
+    position: relative;
+    width: 100%;
+  }
+
+  .blog-content {
+    padding: 10px 30px 10px 60px;
+    box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+    width: 50%;
+    margin-left: 0%;
+  }
+
+  .blog-author {
+    position: absolute;
+    bottom: 1px;
+    right: 5px;
+    font-size: 13px;
+  }
+
+  .faq-section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    background-color: #e9edff;
+    margin: 5% 0;
+  }
+
+  .faq-image img{
+    width: 100%;
+  }
+
+  .download-section {
+    display: flex;
+    margin: 0 5%;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+
+  .download-content h1{
+    margin: 0;
+  }
+
+  .download-email {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .download-email form input {
+    display: flex;
+    width: 100%;
+    padding: 15px 5px 15px 5px;
+    border-radius: 30px;
+    background-color: #e9edff;
+    border: 1;
+    text-align: center;
+  }
+
+  .download-email form button {
+    position: absolute;
+    top: 100%;
+    right: 35%;
+  }
+
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-righti {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  ul.logos-list {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+  }
+
+
+}
+
